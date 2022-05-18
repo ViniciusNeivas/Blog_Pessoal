@@ -1,0 +1,22 @@
+.imagem2 {
+    background-image: url(https://th.bing.com/th/id/R.08760d7091d2e19d46fcef538fcb4eb6?rik=JrCSmIpEf%2fyvQA&riu=http%3a%2f%2fimages5.fanpop.com%2fimage%2fphotos%2f31000000%2fMusic-music-31055631-1600-1200.jpg&ehk=sgCApihcrZuM6lbuoXCLy%2b55tQsXJtE1uAp%2bUWp5UW8%3d&risl=&pid=ImgRaw&r=0);
+    background-repeat : no repeat;
+    width: 100vh; 
+    min-height: 100vh;
+    background-size: cover; 
+    background-position:RIGHT;
+}
+
+.btmCancelar {
+
+    margin-right:  20px !important;
+
+}
+
+.txtCadastrar {
+
+    font-family: 'Macondo' !important;
+    font-weight: bold !important;
+    font-size: 80px !important;
+    color: black!important;
+}

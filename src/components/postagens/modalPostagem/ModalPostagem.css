@@ -1,0 +1,39 @@
+.cursor{
+    cursor: pointer;
+}
+
+
+.btnModal{
+    display: inline-block;
+    padding: 3px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #df644b; 
+    border: none;
+    border-radius: 50px !important;
+    /* box-shadow: 0 4px #df644b ; */
+    
+   
+   
+    border-color: white  !important;
+    background-color: tomato !important; 
+    color:white !important;
+}
+
+.txtModal {
+
+    color: white !important; 
+    font-weight: bold !important ;
+    font-family: 'Macondo' !important;
+    font-size: 16px !important;    
+}
+
+/* .backListaPost{
+
+    background-color: orange ;
+
+} */

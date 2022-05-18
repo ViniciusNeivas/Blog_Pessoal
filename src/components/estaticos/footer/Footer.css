@@ -1,0 +1,29 @@
+.box1{
+    background: linear-gradient(36deg, #df6b44 8%, #eca266 89%) !important ;
+    height: 85px; 
+}
+
+.box2 {
+    background: linear-gradient(36deg, #da886d 8%, #c34c1ce3 90%) !important ;
+    height: 60px;
+
+}
+
+.redes {
+  font-size: 45px !important;
+  color: white; 
+}
+
+.textosCopy {
+    color: white;
+    font-size: 15px !important;
+    font-weight: bold !important;
+}
+
+
+.textosRedes {
+    color: white;
+    font-size: 20px !important;
+    font-weight: bold !important;
+  
+}

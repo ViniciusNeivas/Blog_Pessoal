@@ -1,0 +1,50 @@
+.titulo{
+    font-weight: bold;
+ }
+
+ .tabModal {
+
+    background: linear-gradient(36deg, #df644b 2%, #e36a51 90%) !important
+
+}
+
+
+ .buttonTab  {
+
+    display: inline-block;
+    padding: 3px 25px ;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #df644b; 
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px #df644b ;
+    }
+    
+    .button:hover {background-color: #e19316}
+    
+    .button:active {
+    background-color: #c52323;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    }
+
+   
+    .txtSobreMim{
+
+      font-weight: bold !important;
+      font-size: 30 px;
+
+    }
+    
+    .txtSobreMim1{
+
+      font-family: 'Macondo' !important;
+      font-weight: bold !important;
+      font-size: 25px !important;
+
+    }

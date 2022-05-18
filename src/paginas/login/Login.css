@@ -1,0 +1,35 @@
+.textos1 {
+    font-weight: bold !important;
+}
+
+.imagem {
+        background-image: url(https://zenitemarcas.com.br/wp-content/uploads/2018/05/como-registrar-uma-m%C3%BAsica.jpg);
+        background-repeat : no repeat;
+        width: 100vh; 
+        min-height: 100vh;
+        background-size: cover; 
+        background-position:center;
+}
+
+.text-decorator-none {
+    text-decoration: none ;
+
+}
+
+.btnLogar{
+background-color: #eec391 !important;
+}
+
+.backgroundLogin{
+
+background-color: #eec391;
+
+}
+
+.txtEntrar {
+    font-family: 'Macondo' !important;
+    font-weight: bold !important;
+    font-size: 80px !important;
+    color: black!important;
+
+}

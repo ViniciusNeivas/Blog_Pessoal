@@ -1,0 +1,44 @@
+.back{
+    
+    /*background-color:  #df644b !important ;*/
+    background: linear-gradient(36deg, #df644b 8%, #e36a51 70%) !important ;
+
+}
+
+.cursor {
+
+    cursor: pointer;
+    color: white;
+
+}
+
+
+.text-decorator-none {
+
+    text-decoration: none;
+}
+
+.button  {
+
+display: inline-block;
+padding: 3px 25px;
+font-size: 24px;
+cursor: pointer;
+text-align: center;	
+text-decoration: none;
+outline: none;
+color: #fff;
+background-color: #df644b; 
+border: none;
+border-radius: 15px;
+box-shadow: 0 4px #df644b ;
+
+}
+
+.button:hover {background-color: #e19316}
+
+.button:active {
+background-color: #c52323;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}

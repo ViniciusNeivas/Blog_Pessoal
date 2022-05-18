@@ -1,0 +1,22 @@
+.topo{
+    margin-top: 20px;
+}
+
+
+.tituloFormTema{
+    font-weight: bold !important ;
+    font-family: 'Macondo' !important;
+    font-size: 60px !important;
+    color: black !important;
+}
+
+.backFormTema {
+
+    background-color: aqua;
+    background-position: cover !important;
+}
+
+.btnFinalizar{
+
+    align-items:  center ! important;
+}

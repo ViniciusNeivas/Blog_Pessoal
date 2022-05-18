@@ -1,0 +1,86 @@
+.background {
+    background-image: url("../../assets/images/Concurso\ de\ Musica_0.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    min-height: calc(100vh - 64px);
+
+}
+
+.texto1 {
+
+    color: orangered !important;
+    font-weight: bold !important;
+    font-family: 'Macondo' !important;
+    font-weight: 400px !important;
+    font-size: 80px !important;
+    text-shadow: -1px -1px 0px #FFF,
+        -1px 1px 0px #FFF,
+        1px -1px 0px #FFF,
+        1px 0px 0px #FFF;
+
+}
+
+.texto2 {
+
+    color: #ff4500 !important;
+    font-weight: bold !important;
+    font-family: 'Macondo' !important;
+    font-size: 40px !important;
+    text-shadow: -1px -1px 0px #FFF,
+        -1px 1px 0px #FFF,
+        1px -1px 0px #FFF,
+        1px 0px 0px #FFF;
+
+}
+
+.botao {
+
+    display: inline-block;
+    padding: 3px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #df644b;
+    border: none;
+    border-radius: 50px !important;
+    /* box-shadow: 0 4px #df644b ; */
+
+
+
+    border-color: white !important;
+    background-color: tomato !important;
+    color: white !important;
+
+    /* border-color: white !important;
+    background-color: Tomato !important; 
+    color: white !important; */
+
+}
+
+.txtVerPostagens {
+    color: white !important;
+    font-weight: bold !important;
+    font-family: 'Macondo' !important;
+    font-size: 16px !important;
+    
+}
+
+.text-decorator-none {
+
+    text-decoration: none !important;
+}
+
+.postagens {
+
+    /* border-color: white !important;
+    background-color: Tomato !important; 
+    color: white !important; */
+
+
+    background-color: #eec391 !important;
+}
