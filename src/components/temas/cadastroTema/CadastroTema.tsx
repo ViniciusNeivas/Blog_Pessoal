@@ -185,40 +185,52 @@ function CadastroTema() {
       
        
     
-        <Container maxWidth="sm" className="topo">
-           
-            <form onSubmit={onSubmit} >
+       
+       <Grid alignItems="center" justifyContent="center" item xs={12}  className="backFormTema" >
+
+
+
+            <Container>
+
+
+              <Box className='cor'>
+
+                <form onSubmit={onSubmit} >
                
-                <Typography variant="h3" color="textSecondary" component="h1" align="center" className="tituloFormTema">
+                     <Typography variant="h3" color="textSecondary" component="h1" align="center" className="tituloFormTema">
                    
-                    Formulário 
+                        Formulário 
                 
-                </Typography>
+                    </Typography>
 
                
-                <Typography variant="h3" color="textSecondary" component="h1" align="center" className= "tituloFormTema" >
+                    <Typography variant="h3" color="textSecondary" component="h1" align="center" className= "tituloFormTema" >
                    
-                    Cadastro de Tema
+                        Cadastro de Tema
                 
-                </Typography>
+                     </Typography>
 
-                <TextField value={tema.descricao} onChange ={(e:ChangeEvent<HTMLInputElement>) => updatedModel(e)}
-                  id="descricao" label="Descrição do Tema" variant="outlined" 
-                  placeholder='Digite o Tema' name="descricao" margin="normal" fullWidth />
+                    <TextField value={tema.descricao} onChange ={(e:ChangeEvent<HTMLInputElement>) => updatedModel(e)}
+                    id="descricao" label="Descrição do Tema" variant="outlined" 
+                    placeholder='Digite o Tema' name="descricao" margin="normal" className = "textFieldTema" />
                
-            <Grid container justifyContent="center">
+                    <Grid container justifyContent="center">
                 
-                <Button type="submit" variant="contained" color="primary" >
+                         <Button type="submit" variant="contained" color="primary" >
                    
-                    Finalizar
+                            Finalizar
                     
-                </Button>
+                        </Button>
            
-           </Grid> 
+                    </Grid> 
                </form>
         
-        </Container>
-      
+            </Box>
+            
+            </Container>
+
+        </Grid> 
+    
     )
 
 }
