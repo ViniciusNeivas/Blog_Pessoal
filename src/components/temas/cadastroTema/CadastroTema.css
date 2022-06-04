@@ -5,7 +5,7 @@
     font-weight: bold !important ;
     font-family: 'Macondo' !important;
     font-size: 60px !important;
-    color: #ff4500!important;
+    color: black!important;
     padding-top: 40px !important;
 }
 
@@ -37,5 +37,33 @@
 
 color:blue !important;
 align-items: center;
+
+}
+
+.card{
+    width: 750px;
+    height: 450px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glass{
+    border: 10px solid #ffffff50;
+    backdrop-filter: blur(8px)
+}
+
+.glass p:hover{
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.container1{
+
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: auto !important;
 
 }

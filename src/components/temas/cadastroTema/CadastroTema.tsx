@@ -182,37 +182,34 @@ function CadastroTema() {
 
 
     return (
-      
-       
-    
-       
-       <Grid alignItems="center" justifyContent="center" item xs={12}  className="backFormTema" >
+        
+       <Grid item xs={12}  className="backFormTema container1">
 
 
 
             <Container>
 
 
-              <Box className='cor'>
+              <Box className='cor card glass' >
 
-                <form onSubmit={onSubmit} >
+                    <form onSubmit={onSubmit} >
                
-                     <Typography variant="h3" color="textSecondary" component="h1" align="center" className="tituloFormTema">
+                        <Typography variant="h3" color="textSecondary" component="h1" align="center" className="tituloFormTema">
                    
-                        Formulário 
+                            Formulário 
                 
-                    </Typography>
+                        </Typography>
 
                
                     <Typography variant="h3" color="textSecondary" component="h1" align="center" className= "tituloFormTema" >
                    
                         Cadastro de Tema
                 
-                     </Typography>
+                    </Typography>
 
                     <TextField value={tema.descricao} onChange ={(e:ChangeEvent<HTMLInputElement>) => updatedModel(e)}
                     id="descricao" label="Descrição do Tema" variant="outlined" 
-                    placeholder='Digite o Tema' name="descricao" margin="normal" className = "textFieldTema" />
+                    placeholder='Digite o Tema' name="descricao" margin="normal" fullWidth />
                
                     <Grid container justifyContent="center">
                 
