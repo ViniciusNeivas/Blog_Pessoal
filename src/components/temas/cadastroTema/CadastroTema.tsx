@@ -183,11 +183,11 @@ function CadastroTema() {
 
     return (
         
-       <Grid item xs={12}  className="backFormTema container1">
+       <Grid container justifyContent="center" alignItems="center" item xs={12}  className="backFormTema container1">
 
 
 
-            <Container>
+            
 
 
               <Box className='cor card glass' >
@@ -201,17 +201,18 @@ function CadastroTema() {
                         </Typography>
 
                
-                    <Typography variant="h3" color="textSecondary" component="h1" align="center" className= "tituloFormTema" >
-                   
-                        Cadastro de Tema
-                
-                    </Typography>
+                        <Typography variant="h3" color="textSecondary" 
+                            component="h1"  align="center" className= "tituloFormTemaPt1" >
+                    
+                            Cadastro de Tema
+                    
+                        </Typography>
 
                     <TextField value={tema.descricao} onChange ={(e:ChangeEvent<HTMLInputElement>) => updatedModel(e)}
                     id="descricao" label="Descrição do Tema" variant="outlined" 
                     placeholder='Digite o Tema' name="descricao" margin="normal" fullWidth />
                
-                    <Grid container justifyContent="center">
+                    <Grid container justifyContent="center" className = "btnFinalizar">
                 
                          <Button type="submit" variant="contained" color="primary" >
                    
@@ -224,7 +225,7 @@ function CadastroTema() {
         
             </Box>
             
-            </Container>
+           
 
         </Grid> 
     
